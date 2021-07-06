@@ -10,7 +10,7 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
-  systemMessage: "Hello, World!"
+  systemMessage: "Hello, there!"
   updateCenter:
     sites:
     - id: "core-mm-offline"
