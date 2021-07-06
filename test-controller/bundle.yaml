@@ -1,16 +1,16 @@
 apiVersion: "1"
 id: "0-test-controller"
 description: "CloudBees CasC Demo"
-version: "7"
+version: "8"
 plugins:
   - "plugins.yaml"
 jcasc:
   - "jenkins.yaml"
-catalog:
-  - "plugin-catalog.yaml"
 # Commenting out Items since we're not using it for this demo
-#items:
-#  - "items.yaml"
+items:
+  - "items.yaml"
 # Commenting out RBAC since we're not using for this demo
-#rbac:
-#  - "rbac.yaml"
+rbac:
+  - "rbac.yaml"
+#catalog:
+#  - "plugin-catalog.yaml"
