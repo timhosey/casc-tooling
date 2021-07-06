@@ -8,8 +8,9 @@ jcasc:
   - "jenkins.yaml"
 catalog:
   - "plugin-catalog.yaml"
-items:
-  - "items.yaml"
+# Commenting out Items since we're not using it for this demo
+#items:
+#  - "items.yaml"
 # Commenting out RBAC since we're not using for this demo
 #rbac:
 #  - "rbac.yaml"
