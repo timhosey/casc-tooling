@@ -58,9 +58,6 @@ unclassified:
     hookUrl: "http://jenkins.simplytim.io/test-controller/github-webhook/"
   junitTestResultStorage:
     storage: "file"
-  location:
-    adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "http://jenkins.simplytim.io/test-controller/"
   mailer:
     charset: "UTF-8"
     useSsl: false
