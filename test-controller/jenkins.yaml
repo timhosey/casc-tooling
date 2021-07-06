@@ -10,7 +10,7 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
-  systemMessage: "Hello, there!"
+  systemMessage: "Testing for config management (CasC)!"
   updateCenter:
     sites:
     - id: "core-mm-offline"
