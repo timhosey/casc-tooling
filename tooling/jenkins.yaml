@@ -10,7 +10,7 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
-  systemMessage: "Testing for config management (CasC)!"
+  systemMessage: "Tools for various operations"
   updateCenter:
     sites:
     - id: "cap-core-mm"
@@ -38,37 +38,3 @@ security:
     usageStatisticsEnabled: true
   sSHD:
     port: -1
-unclassified:
-  artifactManager:
-    artifactManagerFactories:
-    - "jSync"
-  buildDiscarders:
-    configuredBuildDiscarders:
-    - "jobBuildDiscarder"
-  cloudBeesSCMReporting:
-    enabled: true
-  experimentalPlugins:
-    enabled: false
-  fingerprints:
-    fingerprintCleanupDisabled: false
-    storage: "file"
-  junitTestResultStorage:
-    storage: "file"
-  mailer:
-    charset: "UTF-8"
-    useSsl: false
-    useTls: false
-  pollSCM:
-    pollingThreadCount: 10
-  usageStatisticsCloudBees:
-    usageStatisticsCollected: true
-tool:
-  cloudbeesPluginUsageAnalyzer:
-    enabled: true
-  git:
-    installations:
-    - home: "git"
-      name: "Default"
-  mavenGlobalConfig:
-    globalSettingsProvider: "standard"
-    settingsProvider: "standard"
