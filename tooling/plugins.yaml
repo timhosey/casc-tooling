@@ -117,9 +117,5 @@ plugins:
 - {id: workflow-scm-step}
 - {id: workflow-step-api}
 - {id: workflow-support}
-- { id: "cloudbees-casc-api" }
-- { id: "configuration-as-code" }
-- { id: "infradna-backup" }
-- { id: "operations-center-clusterops" }
-- { id: "operations-center-sso" }
-- { id: "operations-center-rbac" }
+- {id: "cloudbees-casc-api"}
+- {id: "configuration-as-code"}
