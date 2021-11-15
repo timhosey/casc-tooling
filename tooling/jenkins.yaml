@@ -1,8 +1,5 @@
 jenkins:
-  numExecutors: 3
-  primaryView:
-    all:
-      name: "all"
+  numExecutors: 0
   projectNamingStrategy: "standard"
   quietPeriod: 5
   remotingSecurity:
@@ -29,12 +26,3 @@ beekeeper:
   upgrades:
     autoDowngradePlugins: false
     autoUpgradePlugins: false
-security:
-  anonymizeSupportBundle:
-    enabled: false
-  apiToken:
-    creationOfLegacyTokenEnabled: false
-    tokenGenerationOnCreationEnabled: false
-    usageStatisticsEnabled: true
-  sSHD:
-    port: -1

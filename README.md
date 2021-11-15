@@ -1,5 +1,5 @@
 # SCM Location
-`https://github.com/timhosey/cbci_casc_demo`
+`git@github.com:timhosey/cbci_casc_demo.git`
 
 # Freestyle Job on Pipeline
 Create the job.
