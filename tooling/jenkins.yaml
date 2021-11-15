@@ -1,20 +1,7 @@
 jenkins:
-  systemMessage: "Operations Center configured using CasC."
+  systemMessage: "Jenkins configured using CasC."
   numExecutors: 0
   securityRealm:
     local:
       allowsSignup: false
   authorizationStrategy: "cloudBeesRoleBasedAccessControl" 
-security:
-  securitySettingsEnforcement:
-    global:
-      realmAndAuthorization:
-        canCustomMapping: false
-        canOverride: true
-        defaultMappingFactory: "restrictedEquivalentRAMF"
-  controllerExecutorCount:
-    enforce:
-      canOverride: false
-      count: 0
-cloudBeesCasCServer:
-  visibility: true 
