@@ -1,14 +1,20 @@
 jenkins:
+  systemMessage: "Operations Center configured using CasC."
   numExecutors: 0
-  projectNamingStrategy: "standard"
-  quietPeriod: 5
-  remotingSecurity:
-    enabled: true
-  scmCheckoutRetryCount: 0
-  systemMessage: "Tools for various operations"
-  updateCenter:
-    sites:
-    - id: "cap-core-mm"
-      url: "https://jenkins-updates.cloudbees.com/update-center/envelope-core-mm/update-center.json"
-    - id: "core-mm-offline"
-      url: "file:/tmp/jenkins/war/WEB-INF/plugins/update-center.json"
+  securityRealm:
+    local:
+      allowsSignup: false
+  authorizationStrategy: "cloudBeesRoleBasedAccessControl" 
+security:
+  securitySettingsEnforcement:
+    global:
+      realmAndAuthorization:
+        canCustomMapping: false
+        canOverride: true
+        defaultMappingFactory: "restrictedEquivalentRAMF"
+  controllerExecutorCount:
+    enforce:
+      canOverride: false
+      count: 0
+cloudBeesCasCServer:
+  visibility: true 
