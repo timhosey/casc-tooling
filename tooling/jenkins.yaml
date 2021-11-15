@@ -5,8 +5,6 @@ jenkins:
   remotingSecurity:
     enabled: true
   scmCheckoutRetryCount: 0
-  securityRealm: "operationsCenter"
-  slaveAgentPort: 50000
   systemMessage: "Tools for various operations"
   updateCenter:
     sites:
@@ -14,15 +12,3 @@ jenkins:
       url: "https://jenkins-updates.cloudbees.com/update-center/envelope-core-mm/update-center.json"
     - id: "core-mm-offline"
       url: "file:/tmp/jenkins/war/WEB-INF/plugins/update-center.json"
-  views:
-  - all:
-      name: "all"
-  viewsTabBar: "standard"
-beekeeper:
-  enabled: true
-  securityWarnings:
-    enabledForCore: true
-    enabledForPlugins: true
-  upgrades:
-    autoDowngradePlugins: false
-    autoUpgradePlugins: false
