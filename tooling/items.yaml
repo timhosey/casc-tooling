@@ -17,7 +17,7 @@ items:
           userRemoteConfigs:
           - userRemoteConfig:
               credentialsId: github-ssh
-              url: git@github.com:timhosey/notes_generator.git
+              url: 'git@github.com:timhosey/notes_generator.git'
           branches:
           - branchSpec:
               name: '*/main'

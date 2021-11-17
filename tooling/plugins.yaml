@@ -117,5 +117,5 @@ plugins:
 - {id: workflow-scm-step}
 - {id: workflow-step-api}
 - {id: workflow-support}
-- {id: "cloudbees-casc-api"}
-- {id: "configuration-as-code"}
+- {id: cloudbees-casc-api}
+- {id: configuration-as-code}
