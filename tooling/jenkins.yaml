@@ -81,7 +81,3 @@ tool:
   mavenGlobalConfig:
     globalSettingsProvider: "standard"
     settingsProvider: "standard"
-credentials:
-  - string:
-    id: "test-cred"
-    secret: ${test-secret}
