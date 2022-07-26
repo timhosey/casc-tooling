@@ -71,13 +71,6 @@ unclassified:
   usageStatisticsCloudBees:
     disabledJenkinsUsageStatistics: true
     usageStatisticsCollected: false
-  globalConfig:
-    sites:
-    - password: ucd-token
-      profileName: "UCD Prod"
-      trustAllCerts: true
-      url: "https://ucdeploy.fanniemae.com/"
-      credentialsId: "ucd-user"
 tool:
   cloudbeesPluginUsageAnalyzer:
     enabled: true
