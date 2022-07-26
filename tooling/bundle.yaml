@@ -12,5 +12,5 @@ jcasc:
 #rbac:
 #  - "rbac.yaml"
 # Commenting out Catalog since we're not using for this demo
-#catalog:
-#  - "plugin-catalog.yaml"
+catalog:
+  - "plugin-catalog.yaml"
