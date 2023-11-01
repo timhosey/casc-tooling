@@ -1,10 +1,9 @@
 type: "plugin-catalog"
-version: "1" 
-name: "tooling-catalog"
-displayName: "Plugin Catalog for Tooling"
+version: "1"
+name: "it-btrm-catalog"
+displayName: "Required Plugin by IT BTRM"
 configurations:
-  - description: "UrbanCode for FM Testing"
-    includePlugins:
-      ibm-ucdeploy-build-steps:
-        url: https://raw.githubusercontent.com/UrbanCode/IBM-UCD-PLUGINS/main/files/jenkins-pipeline-ud-plugin/ibm-ucdeploy-build-steps-2.27.1134919.hpi
-        
+  - description: "IT BTRM Plugins"
+    includePlugins:     
+      prometheus:
+        version: 2.2.3

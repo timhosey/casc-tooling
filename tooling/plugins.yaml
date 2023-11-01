@@ -1,5 +1,4 @@
 plugins:
-- {id: ibm-ucdeploy-build-steps}
 - {id: ace-editor}
 - {id: apache-httpcomponents-client-4-api}
 - {id: async-http-client}
@@ -120,3 +119,4 @@ plugins:
 - {id: workflow-support}
 - {id: cloudbees-casc-api}
 - {id: configuration-as-code}
+- {id: prometheus}
