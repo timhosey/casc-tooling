@@ -1,12 +1,9 @@
 plugins:
 - {id: ace-editor}
 - {id: apache-httpcomponents-client-4-api}
-- {id: async-http-client}
 - {id: authentication-tokens}
 - {id: aws-credentials}
-- {id: aws-java-sdk}
 - {id: blueocean-commons}
-- {id: bootstrap4-api}
 - {id: bouncycastle-api}
 - {id: branch-api}
 - {id: caffeine-api}
@@ -20,7 +17,6 @@ plugins:
 - {id: cloudbees-github-reporting}
 - {id: cloudbees-groovy-view}
 - {id: cloudbees-jenkins-advisor}
-- {id: cloudbees-jsync-archiver}
 - {id: cloudbees-license}
 - {id: cloudbees-monitoring}
 - {id: cloudbees-nodes-plus}
@@ -51,7 +47,6 @@ plugins:
 - {id: github-api}
 - {id: github-branch-source}
 - {id: gradle}
-- {id: handlebars}
 - {id: handy-uri-templates-2-api}
 - {id: infradna-backup}
 - {id: jackson2-api}
@@ -70,7 +65,6 @@ plugins:
 - {id: mapdb-api}
 - {id: matrix-project}
 - {id: metrics}
-- {id: momentjs}
 - {id: nectar-license}
 - {id: nectar-rbac}
 - {id: node-iterator-api}
@@ -93,7 +87,6 @@ plugins:
 - {id: pipeline-stage-view}
 - {id: plain-credentials}
 - {id: plugin-util-api}
-- {id: popper-api}
 - {id: scm-api}
 - {id: script-security}
 - {id: snakeyaml-api}
@@ -110,7 +103,6 @@ plugins:
 - {id: workflow-basic-steps}
 - {id: workflow-cps}
 - {id: workflow-cps-checkpoint}
-- {id: workflow-cps-global-lib}
 - {id: workflow-durable-task-step}
 - {id: workflow-job}
 - {id: workflow-multibranch}
