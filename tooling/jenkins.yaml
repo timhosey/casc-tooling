@@ -23,7 +23,7 @@ jenkins:
   scmCheckoutRetryCount: 0
   securityRealm: "operationsCenter"
   slaveAgentPort: 50000
-  systemMessage: "Jenkins configured using CasC and stuff."
+  systemMessage: "Jenkins configured using CasC after installing Prometheus."
   updateCenter:
     sites:
     - id: "core-mm-offline"
