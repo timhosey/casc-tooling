@@ -1,7 +1,7 @@
 apiVersion: "1"
 id: "0-tooling"
 description: "Tooling CasC Setup"
-version: "5"
+version: "6"
 plugins:
   - "plugins.yaml"
 jcasc:
