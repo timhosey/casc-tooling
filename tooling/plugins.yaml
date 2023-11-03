@@ -111,4 +111,4 @@ plugins:
 - {id: workflow-support}
 - {id: cloudbees-casc-api}
 - {id: configuration-as-code}
-- {id: prometheus}
+#- {id: prometheus}
