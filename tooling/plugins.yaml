@@ -112,3 +112,4 @@ plugins:
 - {id: cloudbees-casc-api}
 - {id: configuration-as-code}
 - {id: prometheus}
+- {id: ssh-slaves}

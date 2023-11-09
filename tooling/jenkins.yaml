@@ -21,6 +21,9 @@ jenkins:
           port: 22
           host: "3.80.48.89"
       name: "rhel8"
+      nodeProperties:
+      - securityTokens:
+          acceptTasksWithoutOwningItem: false
       nodeDescription: "Podman!"
       numExecutors: 4
       remoteFS: "/var/lib/jenkins"
