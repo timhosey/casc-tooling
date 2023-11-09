@@ -17,7 +17,7 @@ jenkins:
       launcher:
         ssh:
           credentialsId: "ec2-user"
-          keyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
+          sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
           port: 22
           host: "3.80.48.89"
       name: "rhel8"
