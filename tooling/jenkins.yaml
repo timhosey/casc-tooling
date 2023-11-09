@@ -19,7 +19,7 @@ jenkins:
           credentialsId: "ec2-user"
           sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
           port: 22
-          host: "3.80.48.89"
+          host: "54.163.27.106"
       name: "rhel8"
       nodeProperties:
       - securityTokens:
