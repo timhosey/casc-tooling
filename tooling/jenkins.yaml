@@ -17,7 +17,7 @@ jenkins:
       launcher:
         ssh:
           credentialsId: "ec2-user"
-          keyVerificationStrategy: "blindlyTrust"
+          keyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
           port: 22
           host: "3.80.48.89"
       name: "rhel8"
@@ -25,6 +25,7 @@ jenkins:
       numExecutors: 4
       remoteFS: "/var/lib/jenkins"
       retentionStrategy: "always"
+      labelString: "rhel8"
   numExecutors: 0
   primaryView:
     all:
